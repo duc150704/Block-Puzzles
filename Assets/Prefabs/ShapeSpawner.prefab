@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &187165411804299053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1846684697602999880}
+  - component: {fileID: 113892131895593858}
+  m_Layer: 0
+  m_Name: ShapeSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846684697602999880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187165411804299053}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.40392, y: 0.2121, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &113892131895593858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187165411804299053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c47001d3883e5448053cfb7f35f850, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShapeSpawner
+  _shapeViewPref: {fileID: 8979295966325800868, guid: 26d955b4ec3a4ca42bfd26320b40cfa6, type: 3}
+  _shapeData:
+  - {fileID: 11400000, guid: 7e9b652e7de14de4997d178a103dc59e, type: 2}
+  - {fileID: 11400000, guid: 8fa8941e8a4c3394ca008c3b8c95a65d, type: 2}
+  - {fileID: 11400000, guid: f5fe3739b378684479b722678a073778, type: 2}
+  - {fileID: 11400000, guid: cf02d1ad9f73aa9499db639c3d651976, type: 2}
+  - {fileID: 11400000, guid: 59e14b62bdc890b4a9252cc5fcd6381a, type: 2}
+  - {fileID: 11400000, guid: 0a84903aca6d2ae4b907428fd2953d14, type: 2}
+  - {fileID: 11400000, guid: ec762ded2e0cb8d42b2c697fb8abb89b, type: 2}
+  - {fileID: 11400000, guid: 97b6e77f255faf444acfa061974b6bba, type: 2}
+  - {fileID: 11400000, guid: 323a28ac9816e1e45b109cbc60da11fa, type: 2}
+  _cellSprite:
+  - {fileID: 21300000, guid: 92a035b5139347548a93366b48508d9b, type: 3}
